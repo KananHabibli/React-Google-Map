@@ -1,0 +1,42 @@
+.searchForm {
+  width: 70vw;
+  padding: 1vh 1vw;
+  margin: 15px auto;
+}
+
+.searchInput {
+  display: inline-block;
+  width: 50vw;
+  padding: 1vh 1vw;
+  margin: 15px auto;
+}
+
+.buttonItem,
+.buttonGroup {
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 1725px) {
+  .searchForm {
+    display: block;
+    width: 100vw;
+  }
+
+  .searchInput {
+    display: block;
+    width: 70vw;
+    margin: 15px 13vw;
+  }
+
+  .buttonGroup {
+    display: block;
+    margin-left: 15vw;
+  }
+
+  .buttonItem {
+    display: block;
+    width: 60vw;
+    margin-bottom: 15px;
+  }
+}
